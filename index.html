@@ -11,9 +11,11 @@
 
 <body>
     <div class="container">
-        <label for="name"><h2>Here are some of food list</h2></label>
+        <label for="name">
+            <h2>Here are some of food list</h2>
+        </label>
         <div class="container2">
-            <ul >
+            <ul>
                 <li class="cd">
                     <a href="https://www.youtube.com/" target="_blank">Youtube</a>
                 </li>
@@ -32,16 +34,26 @@
             </ul>
         </div>
         <div class="fillup">
-            <form action="" class="lbl">
-                <label for="" class="">Personal Details</label>
-                <input type="text" placeholder="First Name" class="name">
-                <input type="text" placeholder="Last Name" class="name">
-                <input type="email" placeholder="Email" class="name">
-                <input type="password" placeholder="New Password" class="name">
-                <input type="password" placeholder="Confirm Password" class="name">
-                
+            <form action="">
+                <div class="inp">
+                    <label for="" class="">Personal Details</label>
+                    <input type="text" placeholder="First Name" class="name">
+                    <input type="text" placeholder="Last Name" class="name">
+                    <input type="email" placeholder="Email" class="name">
+                    <input type="password" placeholder="New Password" class="name">
+                    <input type="password" placeholder="Confirm Password" class="name">
+                </div>
+                <button class="btn">Submit</button>
             </form>
-            <button class="btn">Submit</button>
+        </div>
+        <div class="gender" style="margin-top: 20px;">
+            <form action="">
+                <p style="padding-bottom: 10px;">Please select your gender</p>
+                <input type="radio" id="male" name="fav_language" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="fav_language" value="Female">
+                <label for="female">Female</label>
+            </form>
         </div>
     </div>
 </body>

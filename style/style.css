@@ -4,17 +4,11 @@
     text-decoration: none;
     
 }
-.container{
-    margin: 50px;
-    text-align: center;
-    display: inline-block;
-}
+
 .container2{
-    margin-left: 50px;
     margin-top: 50px;
     border: 3px solid burlywood;
     box-shadow: 5px 10px 10px black;
-    
 }
 
 li{
@@ -32,12 +26,9 @@ a:hover{
     text-decoration: none;
 }
 /* Centering the form in the container */
-.fillup{
-    margin-top: 50px;
-    
-}
+
+
 .name{
-    display: block;
     margin: 10px;
     padding: 8px;
     width: 300px;
